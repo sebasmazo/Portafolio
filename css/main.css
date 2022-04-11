@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@keyframes slideInLeft {
+0% {
+    transform: translateX(-100%);
+}
+100% {
+    transform: translateX(0);
+}
+}
+
+header {
+    animation: 1s ease-out 0s 1 slideInLeft;
+}
 html {
     scroll-behavior: smooth;
 }
