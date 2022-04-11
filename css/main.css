@@ -9,7 +9,10 @@ body{
     padding: 0px;
     background: linear-gradient(60deg, #272927 0%, #5e645e  71%, #272927  85%);
 } 
-
+hr{
+    width: 60%;
+    align-self: center;
+}
 
 .overall{
     display: flex;
@@ -77,8 +80,13 @@ body{
 }
 #aboutMe-img{
     border-radius: 50%;
+    height:auto;
+    width:auto;
+    max-width: 196px;
+    max-height:196px;
 }
 .skill-container{
+    flex-wrap: wrap;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -88,7 +96,20 @@ body{
     flex-direction: row;
     margin-left: auto;
 }
-
+.downloads{
+    width:100%;
+    display: flex;
+}
+#link2{
+    padding-left: 5px;
+}
+a{
+    
+    color: antiquewhite;
+}
+a:hover{
+    color:azure;
+}
 .Skills{
     display: flex;
     width: 100%;
@@ -103,8 +124,10 @@ body{
 
 }
 .SkillImg{
-    width: 90%;
-    height: 35%;
+    width: auto;
+    max-width: 90%;
+    max-height: 35%;
+    height: auto;
     margin-left: auto;
 }
 #webTitle{
