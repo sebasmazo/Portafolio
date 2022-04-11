@@ -26,12 +26,7 @@ hr{
     align-self: center;
 }
 
-.overall{
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-    align-items: stretch;
-}
+
 .main-container{
     width: 100%;
 }
@@ -85,7 +80,9 @@ hr{
     margin-left: auto;
     
 }
-
+.AboutMe-text{
+    width: 50%;
+}
 .AboutMe-Img{
     
     padding-right : 5px;
