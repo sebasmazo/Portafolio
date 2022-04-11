@@ -7,47 +7,43 @@
     
     <link rel="stylesheet" href="./css/main.css">
     <title>Portfolio</title>
-    
+    <script type="text/javascript" src="./js/routing.js"></script>
     <link rel="shortcut icon" type="image/jpg" href="./imgs/Favicon.ico" />
 </head>
 <header>
-    <div class="flex-container">
-        <div class="menu item1">About Me</div>
-        <div class="menu item2">Skills</div>
-        <div class="menu item3">Certificated courses</div>
-        <div class="menu item4">Last projects</div>
+    <div class="image-container">
+        <img id="banner-img" src="./imgs/Banner.jpg">
+        <div class="banner-title">
+            <p>Sebastián Mazo Vélez</p>
+        </div>
+        <div class="banner-subtitle">
+            <p>Computer Science</p>
+        </div>
     </div>
+    
 </header>
 <body>
     <div class="main-container">
-        
-        <div class="image-container">
-            <img id="banner-img" src="./imgs/Banner.jpg">
-            <div class="banner-title"><p>Sebastián Mazo Vélez</p></div>
-            <div class="banner-subtitle"><p>Computer Science</p></div>
+        <div class="flex-container">
+            <div class="menu item1"><a onclick="moveto(1)">About Me</a></div>
+            <div class="menu item2"><a onclick="moveto(2)">Skills</a></div>
+            <div class="menu item3"><a onclick="moveto(3)">Certificated courses</a></div>
+            <div class="menu item4"><a onclick="moveto(4)">Last projects</a></div>
         </div>
         
-        <h1 id="webTitle"> About Me </h1>
-            <div class="AboutMe-container">
-                <div class="AboutMe-text">
+        
+        <h1 class="webTitle" > About Me </h1>
+            <div class="AboutMe-container"id="aboutmesection" >
+                <div class="AboutMe-text" >
                     <p id="InfoText">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultricies sit amet augue eget sodales. Curabitur at
-                        nulla vel tellus blandit posuere. Nulla consequat purus enim, et mattis libero faucibus accumsan. Integer cursus
-                        facilisis felis, eu sollicitudin ipsum. Ut quis dapibus est. Cras interdum purus vitae eros fermentum bibendum. Etiam
-                        fermentum feugiat eros ut congue. Nullam urna est, tincidunt sed tortor a, venenatis mollis quam. Maecenas leo augue,
-                        scelerisque quis erat vitae, pulvinar vehicula ipsum. Vestibulum eleifend fringilla leo, non posuere ex vulputate et.
-                        Pellentesque enim enim, rhoncus in erat vitae, varius lobortis dolor. Nullam felis lorem, finibus in suscipit vel,
-                        maximus at mauris. Nam sit amet elit vehicula, gravida ex ut, euismod augue.
+                        I am a hardworking person seeking for experience interested in the world of engineering. Committed to
+                        utilizing my skills and to learn more while achieving my goals. Capable of working in fast paced
+                        teams, bringing a positive attitude and the willingness and motivation to learn new programs.
                     </p>
                     <p>
-                        Sed libero orci, facilisis non varius consequat, elementum eu purus. Maecenas bibendum, leo at maximus eleifend, elit
-                        justo rhoncus purus, a imperdiet justo nibh eget nisl. Ut suscipit varius erat id laoreet. Ut id magna nulla. Proin
-                        mauris lacus, venenatis non dapibus sit amet, tincidunt vitae ex. Nulla a quam semper tellus tempus tempor eget in elit.
-                        In id elit purus. Nullam ut condimentum felis. Praesent enim dolor, malesuada ac lacus vitae, sollicitudin dignissim
-                        arcu. Mauris id neque consectetur, mattis magna sit amet, pharetra ligula. In a scelerisque nulla. Duis lacinia eleifend
-                        diam, eu condimentum sapien dignissim sed. Nullam a condimentum augue.
+                        
                     </p><br>
-                    <h3>Links</h3>
+                    
                     <div class="downloads">
                         <div class="link">
                         <a href="./docs/Sebastián__Mazo_Vélez_-LondonCV.pdf" download target="_blank">
@@ -74,10 +70,10 @@
                     <img id="aboutMe-img" src="./imgs/Perfil.jpg" alt="Foto Sebastian"/>
                 </div>
             </div>
-        <hr>
+        <hr >
 
-        <h1 id="webTitle">Development Skills</h2><br>
-            <div class="skill-container">
+        <h1 class="webTitle" >Development Skills</h2><br>
+            <div class="skill-container" >
                 <div class="Skills">
                     <div class="image">
                         <img class="SkillImg" src="./imgs/python-logo.png" alt="Python Logo">
@@ -98,7 +94,7 @@
                 </div>
             </div>
 
-        <h1 id="webTitle">Web Skills</h2><br>
+        <h1 class="webTitle">Web Skills</h2><br>
             <div class="skill-container">
                 <div class="Skills" >
                     
