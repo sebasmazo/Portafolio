@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(55deg, #c1c2c7 0%, #797b83  71%, #41434d 85%);
+}
+.overall{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    align-items: stretch;
+}
+.main-container{
+    width: 100%;
+}
+.flex-container{
+    width: 100%;
+    display: flex;
+    background-color:black;
+    
+}
+.menu{
+    min-width: 200px;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top:  2%;
+    padding-bottom: 2%;
+}
+.image-container{
+    
+    display: flex;
+    position: relative;
+    text-align: center;
+    
+}
+#banner-img{
+    width: 100%;
+    opacity: 0.9;
+    height: 800px;
+}
+.banner-title{
+    color:white;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    font-size:2.5em;
+}
+.banner-subtitle{
+    color:rgb(177, 175, 175);
+    position: absolute;
+    top: 25%;
+    left:65%;
+    font-size:2em;
+}
+.skill-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin-top:50px;
+
+    flex-direction: row;
+    margin-left: auto;
+}
+.web-Skills{
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    justify-content: center;
+}
+#webTitle{
+    text-align: center;
+}
+#HTMLLogo{
+    width: 90%;
+    height: 30%;
+}
+#PHPLogo{
+    width: 90%;
+    height: 30%;
+}
+#ReactLogo{
+    width: 90%;
+    height: 30%;
+}
+#CSSLogo{
+    width: 90%;
+    height: 30%;
+}
