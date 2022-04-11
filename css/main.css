@@ -7,8 +7,10 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(55deg, #c1c2c7 0%, #797b83  71%, #41434d 85%);
-}
+    background: linear-gradient(60deg, #272927 0%, #5e645e  71%, #272927  85%);
+} 
+
+
 .overall{
     display: flex;
     flex-direction: column;
@@ -19,10 +21,11 @@ body{
     width: 100%;
 }
 .flex-container{
+    position: fixed ;
     width: 100%;
     display: flex;
     background-color:black;
-    
+    top: 0;
 }
 .menu{
     min-width: 200px;
@@ -33,7 +36,8 @@ body{
     padding-bottom: 2%;
 }
 .image-container{
-    
+    height: 80%;
+    padding-top: 5.5%;
     display: flex;
     position: relative;
     text-align: center;
@@ -58,38 +62,52 @@ body{
     left:65%;
     font-size:2em;
 }
+.AboutMe-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    
+}
+
+.AboutMe-Img{
+    
+    padding-right : 5px;
+}
+#aboutMe-img{
+    border-radius: 50%;
+}
 .skill-container{
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 500px;
-    margin-top:50px;
+    height: 450px;
+    margin-bottom: 0px;
 
     flex-direction: row;
     margin-left: auto;
 }
-.web-Skills{
+
+.Skills{
     display: flex;
     width: 100%;
     margin-top: 1%;
     justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+.image{
+    padding-left: 5%;
+
+}
+.SkillImg{
+    width: 90%;
+    height: 35%;
+    margin-left: auto;
 }
 #webTitle{
+    padding-top: 5px;
     text-align: center;
-}
-#HTMLLogo{
-    width: 90%;
-    height: 30%;
-}
-#PHPLogo{
-    width: 90%;
-    height: 30%;
-}
-#ReactLogo{
-    width: 90%;
-    height: 30%;
-}
-#CSSLogo{
-    width: 90%;
-    height: 30%;
 }
