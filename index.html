@@ -25,10 +25,10 @@
 <body>
     <div class="main-container">
         <div class="flex-container">
-            <div class="menu item1"><a onclick="moveto(1)">About Me</a></div>
-            <div class="menu item2"><a onclick="moveto(2)">Skills</a></div>
-            <div class="menu item3"><a onclick="moveto(3)">Certified courses</a></div>
-            <div class="menu item4"><a onclick="moveto(4)">Last projects</a></div>
+            <div class="menu item1"><a class="navbar" onclick="moveto(1)">About Me</a></div>
+            <div class="menu item2"><a class="navbar" onclick="moveto(2)">Skills</a></div>
+            <div class="menu item3"><a class="navbar" onclick="moveto(3)">Education & Courses</a></div>
+            <div class="menu item4"><a class="navbar" onclick="moveto(4)">Last projects</a></div>
         </div>
         
         <h1 class="webTitle" > About Me </h1>
@@ -45,23 +45,30 @@
                     
                     <div class="downloads">
                         <div class="link">
-                        <a href="./docs/Sebastián__Mazo_Vélez_-LondonCV.pdf" download target="_blank">
-                            <p>Resume (English)</p>
-                        </a>
+                            <a href="./docs/Sebastián__Mazo_Vélez_-LondonCV.pdf" download target="_blank">
+                                <p>Resume (English)</p>
+                            </a>
+                        </div>
+                        
+                        
+                        <div class="link">
+                            <a href="https://linkedin.com/in/sebasmazo" target="_blank">
+                                <p>Linkedin profile</p>
+                            </a>
+                        </div>
+                        
+                        
+                        <div class="link">
+                            <a href="https://github.com/sebasmazo" target="_blank">
+                                <p>Github profile</p>
+                            </a>
                         </div>
                         <div class="link">
-                        <a href="https://linkedin.com/in/sebasmazo"target="_blank">
-                            <p>Linkedin profile</p>
-                        </a>
+                            <a href="./docs/CV-Upb - Sebastian Mazo.pdf" download target="_blank">
+                                <p>Hoja de vida</p>
+                            </a>
                         </div>
-                        <div class="link">
-                        <a href="https://github.com/sebasmazo"target="_blank"><p>Github profile</p></a>
-                        </div>
-                        <div class="link">
-                        <a href="./docs/CV-Upb - Sebastian Mazo.pdf" download target="_blank">
-                            <p>Hoja de vida</p>
-                        </a>
-                        </div>
+                        
                     </div>
                     
                 </div>
@@ -89,11 +96,13 @@
                     <div class="image">
                         <img class="SkillImg" src="./imgs/Linux.png" alt="Linux Logo">
                     </div>
-        
+                    <div class="image">
+                        <img class="SkillImg" src="./imgs/ReactLogo.png" alt="React Logo">
+                    </div>
                 </div>
             </div>
 
-        <h1 class="webTitle">Web Skills</h2><br>
+        
             <div class="skill-container">
                 <div class="Skills" >
                     
@@ -109,9 +118,7 @@
                     <div class="image">
                         <img class="SkillImg" src="./imgs/CSS-Logo.png" alt="CSS Logo">
                     </div>
-                    <div class="image">
-                        <img class="SkillImg" src="./imgs/ReactLogo.png" alt="React Logo">
-                    </div>
+                    
                     <div class="image">
                         <img class="SkillImg" src="./imgs/JavaScript-logo-PNG.png" alt="JavaScript Logo">
                     </div>
@@ -119,6 +126,41 @@
                 </div>
             </div>
             <hr>
+        <h1 class="webTitle">Education & Courses</h1>
+            <div class="courses-container">
+                <div class="card">
+                    <img src="./imgs/Cuantica.JPG" class="Courseimg" alt="Sociedad 5.0" >
+                    <div class="container">
+                        <h4><b>Introduction to Cuantic computation</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="./imgs/books.jpg" class="Courseimg" alt="PHP Course">
+                    <div class="container">
+                        <h4><b>Higher Education (2006 - 2018)</b></h4>
+                        <p>Universidad Pontificia Bolivariana  <br>
+                            Medellín, Colombia</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./imgs/anatomy-g6c7b7c15b_640.jpg" class="Courseimg" alt="PHP Course">
+                    <div class="container">
+                        <h4><b>Engineer’s Degree (2019-Present)</b></h4>
+                        <p>Universidad Pontificia Bolivariana <br> Medellín, Colombia<br> Computer Science degree </p>
+                    </div>
+                </div>
+            </div>
+            <div class="courses-container">
+                <div class="card">
+                    <img src="./imgs/Edutin.png" class="Courseimg" alt="PHP Course">
+                    <div class="container">
+                        <h4><b>Edutin PHP Advanced</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+            </div>
             
     </div>
     
