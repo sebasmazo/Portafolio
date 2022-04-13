@@ -39,6 +39,7 @@ hr{
     background-color:black;
     top: 0;
 }
+
 .menu{
     min-width: 200px;
     color:whitesmoke;
@@ -63,8 +64,8 @@ hr{
 .banner-title{
     color:white;
     position: absolute;
-    top: 15%;
-    left: 60%;
+    top: 60%;
+    left: 15%;
     font-size:2.5em;
 }
 .banner-subtitle{
@@ -103,11 +104,12 @@ hr{
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 450px;
+    height: 60%;
     margin-bottom: 0px;
     flex-direction: row;
     margin-left: auto;
 }
+
 .downloads{
     width:100%;
     display: flex;
@@ -158,6 +160,8 @@ a:hover{
     background-color: rgb(156, 143, 143);
     border-radius: 5px;
     width:auto;
+    height: auto;
+    max-height: 25%;
     max-width:25%;
     margin-left: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -166,9 +170,15 @@ a:hover{
     rgba(0, 0, 0, 0.17) 0px 12px 13px,
     rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
-
-
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .card{
+        height:40%;
+        width: 600px;
+    }
+}
 .container {
     padding: 2px 16px;
 }
