@@ -21,6 +21,9 @@ body{
     padding: 0px;
     background: linear-gradient(60deg, #272927 0%, #5e645e  71%, #272927  85%);
 } 
+p{
+    font-size: 1.2em;
+}
 hr{
     width: 60%;
     align-self: center;
@@ -126,7 +129,7 @@ a:hover{
 }
 .Skills{
     display: flex;
-    width: 100%;
+    width: auto;
     margin-top: 1%;
     justify-content: center;
     margin-bottom: 0px;
@@ -189,3 +192,47 @@ a:hover{
     
     height: 50%;
 }
+.projects-container {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .card {
+        height: 40%;
+        width: 600px;
+    }
+    .projects-container{
+        flex-direction: column;
+    }
+}
+.social-container{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+
+.social-container ul li svg {
+    width: 40px;
+    height: 40px;
+}
+ul{
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+        font-size: .875rem;
+        color: var(--text-light);
+}
+/* Chrome, Safari, and also the Edge Browser and Firefox */
